@@ -1,6 +1,12 @@
 html {
   margin: 0;
-  font-family: "Baskerville", serif;
+  font-family: "Libre Baskerville", serif;
+  color: #222;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -16,6 +22,8 @@ article {
 img {
   max-width: 47em;
   padding: 1.5rem;
+  display: block;
+  width: 100%;
 }
 
 p {
@@ -70,6 +78,6 @@ footer {
 
 header + p::first-line {
   font-style: italic;
-  color: #259f95;
+  color: #1e7c74;
   text-indent: -1rem;
 }
